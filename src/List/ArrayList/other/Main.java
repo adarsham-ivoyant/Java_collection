@@ -15,8 +15,8 @@ public class Main {
 
 
         //sort by age
-        Collections.sort(personList, Comparator.comparing(Person::getAge));
-        System.out.println("Sorted By age");
+        Collections.sort(personList, Comparator.comparing(Person::getName));
+        System.out.println("Sorted By Name");
         personList.forEach(System.out::println);
 
     }
