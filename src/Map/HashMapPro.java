@@ -5,6 +5,7 @@ import java.util.Map;
 
 public class HashMapPro {
     public static void main(String[] args) {
+        Map<String,Integer> tem = new HashMap<>();
         HashMap<String,Double> fruitPrices = new HashMap<>();
 
         // Add some fruits and their prices
